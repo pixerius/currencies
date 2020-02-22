@@ -111,3 +111,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+CURRENCIES_CONVERSION_API_URL = 'https://api.exchangeratesapi.io/latest'
