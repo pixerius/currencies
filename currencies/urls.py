@@ -18,4 +18,5 @@ from django.urls import path
 from converter.views import ConvertCurrency
 
 urlpatterns = [
+    path('convert/', ConvertCurrency.as_view(), name='convert-currency'),
 ]
