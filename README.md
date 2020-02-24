@@ -29,7 +29,7 @@ POST http://localhost:8000/convert
 ```
 
 ## Running tests
-Full test suite can be run with `docker-compose exec web pytest`. To exclude tests testing integration with external API run:
+Full test suite can be run with `docker-compose run web pytest`. To exclude tests testing integration with external API run:
 ```
-docker-compose exec web pytest -m 'not external'
+docker-compose run web pytest -m 'not external'
 ```
